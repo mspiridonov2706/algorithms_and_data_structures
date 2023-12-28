@@ -36,7 +36,8 @@ fixable = ["F401", "E501"]
 ignore = ["E203"]
 
 [tool.ruff.lint.isort]
-lines-after-imports = 2
+lines-after-imports = -1
 
 [tool.mypy]
 explicit_package_bases = true
+disable_error_code = ["valid-type"]

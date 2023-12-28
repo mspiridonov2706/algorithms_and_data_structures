@@ -1,4 +1,4 @@
-"""Selection sort
+"""Quick sort
 
 Time complexity: O(nlogn), O(n^2) - worst
 Space complecity: O(logn)
